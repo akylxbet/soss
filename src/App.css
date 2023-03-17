@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald";
+}
+
+button{
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  -moz-text-shadow:0 0 13px ; -webkit-text-shadow:0 0 23px rgb(136, 25, 130); text-shadow:0 0 23px rgb(136, 25, 130);
+  color: blanchedalmond;
+}
+
+.App {
+  max-width: 1366px;
+  height: auto;
+  overflow-x:hidden;
+  background-image: url("https://i.pinimg.com/originals/95/ef/b8/95efb8425d270933e5e890b33ab5ef70.gif");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
